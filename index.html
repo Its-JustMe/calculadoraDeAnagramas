@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de anagramas</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="page-title">
+        Calculadora de Anagramas
+    </h1>
+
+    <article class="form-container">
+        <form name="anagrama">
+            <article class="input-container">
+                <label for="palavra" class="form-label">
+                    <p>
+                        Digite uma palavra:
+                    </p>
+                </label>
+                <input class="form-input" type="text" id="palavra" placeholder="Ex.: ABACAXI">
+                <input class="form-btn" type="button" value="Calcular">
+            </article>
+
+            <article class="output-container">
+                <output id="results"></output>
+            </article>
+        </form>
+    </article>
+
+    <script src="./script.js"></script>
+</body>
+</html>
